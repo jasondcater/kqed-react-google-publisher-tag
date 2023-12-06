@@ -40,7 +40,8 @@ function loadScript(): void {
   const js = document.createElement('script');
   js.async = true;
   js.defer = true;
-  js.src = 'https://www.googletagservices.com/tag/js/gpt.js';
+  //js.src = 'https://www.googletagservices.com/tag/js/gpt.js';
+  js.src = 'https://securepubads.g.doubleclick.net/tag/js/gpt.js';
 
   document.body.appendChild(js);
 }
